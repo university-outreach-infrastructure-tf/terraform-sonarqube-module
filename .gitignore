@@ -1,9 +1,16 @@
-#  Local .terraform directories
-**/.terraform/*
+# IntelliJ
+*.iml
+.idea/
+.idea
 
-# .tfstate files
+# Terraform
+*.terraform
 *.tfstate
-*.tfstate.*
+*.tfstate.backup
+*/terraform.tfvars
 
-# .tfvars files
-*.tfvars
+# Local secrets
+*.pem
+
+BAK/
+module-FIRST/

@@ -62,18 +62,18 @@ variable "private_subnet_id2" {
 
 variable "vpc_id" {
   type        = string
-  description = "Id of the VPC nexus will be provisioned in."
+  description = "Id of the VPC sonarqube will be provisioned in."
   default     = ""
 }
 
 variable "sonarqube_data_disk_size" {
-  description = "The size of nexus data disk to provision"
+  description = "The size of sonarqube data disk to provision"
   default     = 10
 }
 
 variable "sonarqube_data_device_name" {
   type        = string
-  description = "The name nexus data disk"
+  description = "The name sonarqube data disk"
   default     = "/dev/xvdb"
 }
 
